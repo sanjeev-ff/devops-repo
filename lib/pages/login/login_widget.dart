@@ -117,7 +117,7 @@ class _LoginWidgetState extends State<LoginWidget>
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      'ICICI Bank Portal',
+                      'ICICI Bank\'s New Portal',
                       style: FlutterFlowTheme.of(context).displaySmall.override(
                             fontFamily: 'Plus Jakarta Sans',
                             color: Colors.white,
