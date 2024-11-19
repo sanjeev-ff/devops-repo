@@ -117,7 +117,7 @@ class _LoginWidgetState extends State<LoginWidget>
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      'TDS 2.0 Portal',
+                      'TCS Portal 1.0',
                       style: FlutterFlowTheme.of(context).displaySmall.override(
                             fontFamily: 'Plus Jakarta Sans',
                             color: Colors.white,
