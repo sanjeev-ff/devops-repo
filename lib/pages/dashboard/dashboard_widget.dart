@@ -151,7 +151,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 0.0, 0.0),
                               child: Text(
-                                'ICICI Bank Portal',
+                                FFLocalizations.of(context).getText(
+                                  'lco1bxy5' /* TCS Bancs Portal */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
@@ -177,7 +179,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   16.0, 12.0, 0.0, 0.0),
                               child: Text(
-                                'Platform Navigation',
+                                FFLocalizations.of(context).getText(
+                                  'i7fotc4b' /* Platform Navigation */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -216,7 +220,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             12.0, 0.0, 0.0, 0.0),
                                         child: Text(
-                                          'Dashboard',
+                                          FFLocalizations.of(context).getText(
+                                            '2f9sb0m6' /* Dashboard */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -260,7 +266,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             12.0, 0.0, 0.0, 0.0),
                                         child: Text(
-                                          'Chats',
+                                          FFLocalizations.of(context).getText(
+                                            'vgg4sfzb' /* Chats */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -304,7 +312,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             12.0, 0.0, 0.0, 0.0),
                                         child: Text(
-                                          'Projects',
+                                          FFLocalizations.of(context).getText(
+                                            'rrt7aoaj' /* Projects */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -322,7 +332,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   16.0, 0.0, 0.0, 0.0),
                               child: Text(
-                                'Settings',
+                                FFLocalizations.of(context).getText(
+                                  'ts1h28v4' /* Settings */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -362,7 +374,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   12.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            'Notifications',
+                                            FFLocalizations.of(context).getText(
+                                              'pm5u7l0f' /* Notifications */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -388,7 +402,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     8.0, 4.0, 8.0, 4.0),
                                             child: Text(
-                                              '12',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'wmi7q08i' /* 12 */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -438,7 +455,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             12.0, 0.0, 0.0, 0.0),
                                         child: Text(
-                                          'Billing',
+                                          FFLocalizations.of(context).getText(
+                                            '8ko79c5y' /* Billing */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -482,7 +501,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             12.0, 0.0, 0.0, 0.0),
                                         child: Text(
-                                          'Explore',
+                                          FFLocalizations.of(context).getText(
+                                            '9uzpelwv' /* Explore */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -549,7 +570,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Overview',
+                                      FFLocalizations.of(context).getText(
+                                        'hy9ebx9f' /* Overview */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineMedium
                                           .override(
@@ -561,7 +584,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 4.0, 0.0, 0.0),
                                       child: Text(
-                                        'Below is a company overview',
+                                        FFLocalizations.of(context).getText(
+                                          'c8jls3cl' /* Below is a company overview */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .labelMedium
                                             .override(
@@ -618,7 +643,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Mahesh',
+                                            FFLocalizations.of(context).getText(
+                                              '034vjbnr' /* Mahesh */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
@@ -627,7 +654,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 ),
                                           ),
                                           Text(
-                                            'mahesh@camsonline.com',
+                                            FFLocalizations.of(context).getText(
+                                              'vkn8xuxg' /* mahesh@camsonline.com */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
                                                 .override(
@@ -700,7 +729,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Order Value',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'ny6kp950' /* Order Value */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelMedium
@@ -724,7 +756,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                       4.0,
                                                                       0.0),
                                                           child: Text(
-                                                            '₹47,67,402',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '07nekto8' /* ₹47,67,402 */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .displaySmall
@@ -793,7 +829,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Portfolios Managed',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'wx3qfa5f' /* Portfolios Managed */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelMedium
@@ -816,7 +855,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                     4.0,
                                                                     0.0),
                                                         child: Text(
-                                                          '300',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'gw9oynx0' /* 300 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .displaySmall
@@ -884,7 +927,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Total Orders',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'topqgc0z' /* Total Orders */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelMedium
@@ -907,7 +953,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                     4.0,
                                                                     0.0),
                                                         child: Text(
-                                                          '2,208',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'd7z0o3pw' /* 2,208 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .displaySmall
@@ -975,7 +1025,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Total Orders',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'xpyffwr0' /* Total Orders */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelMedium
@@ -998,7 +1051,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                     4.0,
                                                                     0.0),
                                                         child: Text(
-                                                          '2,208',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'kiybps0l' /* 2,208 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .displaySmall
@@ -1095,7 +1152,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Outstanding Balance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '0mbpi4ej' /* Outstanding Balance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -1118,7 +1178,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                   4.0,
                                                                   0.0),
                                                       child: Text(
-                                                        '₹5,29,204',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'b38q5lm9' /* ₹5,29,204 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1153,7 +1217,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                   FlutterFlowTheme.of(context)
                                                       .accent1,
                                               center: Text(
-                                                '55%',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'wq4r1lan' /* 55% */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .headlineMedium
@@ -1226,7 +1293,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Outstanding Balance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '132m0exa' /* Outstanding Balance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -1249,7 +1319,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                   4.0,
                                                                   0.0),
                                                       child: Text(
-                                                        '₹5,29,204',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '2lz6dj0b' /* ₹5,29,204 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1284,7 +1358,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                   FlutterFlowTheme.of(context)
                                                       .accent1,
                                               center: Text(
-                                                '55%',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'rhfi4qoc' /* 55% */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .headlineMedium
@@ -1399,7 +1476,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              'Network Requests',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '60mrp3ss' /* Network Requests */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -1419,7 +1500,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           0.0,
                                                                           0.0),
                                                               child: Text(
-                                                                'You’re using 80% of available requests.',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'j47mf6gn' /* You’re using 80% of available ... */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .labelMedium
@@ -1481,7 +1566,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     FlutterFlowTheme.of(context)
                                                         .alternate,
                                                 center: Text(
-                                                  '562k',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'h378rn6l' /* 562k */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .displaySmall
@@ -1498,7 +1586,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     24.0, 16.0, 24.0, 0.0),
                                             child: Text(
-                                              'You’ve almost reached your limit',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'clmtjgtj' /* You’ve almost reached your lim... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
@@ -1514,7 +1605,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     24.0, 4.0, 24.0, 8.0),
                                             child: Text(
-                                              'You have used 80% of your available requests. Upgrade plan to make more network requests.',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'lwltwnb0' /* You have used 80% of your avai... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .labelSmall
@@ -1586,7 +1680,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                   12.0,
                                                                   0.0),
                                                       child: Text(
-                                                        'Transaction History',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'yof5fr65' /* Transaction History */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1608,7 +1706,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                   12.0,
                                                                   0.0),
                                                       child: Text(
-                                                        'Create tables and ui elements that work below.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'zenc5ydd' /* Create tables and ui elements ... */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1628,7 +1730,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 onPressed: () {
                                                   print('Button pressed ...');
                                                 },
-                                                text: 'Add New',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  '59vskifg' /* Add New */,
+                                                ),
                                                 icon: Icon(
                                                   Icons.add_rounded,
                                                   color: FlutterFlowTheme.of(
@@ -1707,7 +1813,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                       Expanded(
                                                         flex: 2,
                                                         child: Text(
-                                                          'Transaction Type',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'caun1viu' /* Transaction Type */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .labelSmall
@@ -1722,7 +1832,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 4,
                                                       child: Text(
-                                                        'Assigned User',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'fy5m7tnc' /* Assigned User */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1742,7 +1856,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                       Expanded(
                                                         flex: 2,
                                                         child: Text(
-                                                          'Contract Amount',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'n46y490v' /* Contract Amount */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .labelSmall
@@ -1757,7 +1875,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Status',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'or0d5llc' /* Status */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1773,7 +1895,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 1,
                                                       child: Text(
-                                                        'Actions',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'wxursbg6' /* Actions */,
+                                                        ),
                                                         textAlign:
                                                             TextAlign.end,
                                                         style:
@@ -1838,7 +1964,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Debit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'ifwn3qlp' /* Debit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -1911,7 +2041,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Rahul',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            's0z77nxo' /* Rahul */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1928,7 +2061,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'peagp9xg' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -1951,7 +2086,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'c2biy6vi' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -2000,7 +2139,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Paid',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '18apepu0' /* Paid */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2096,7 +2239,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Credit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'wuuw7w8j' /* Credit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -2169,7 +2316,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Mahesh',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '0aj5hb6w' /* Mahesh */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2186,7 +2336,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'byvnlwog' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -2209,7 +2361,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'zsgsrh40' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -2258,7 +2414,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Paid',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '21upawcz' /* Paid */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2354,7 +2514,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Debit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'z8q8tbx9' /* Debit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -2427,7 +2591,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Mahesh',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '1wre9bqj' /* Mahesh */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2444,7 +2611,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              '2juuud2e' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -2467,7 +2636,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'ddeaukf2' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -2516,7 +2689,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Paid',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'a8kqsgho' /* Paid */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2612,7 +2789,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Credit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '4oxpvdbt' /* Credit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -2685,7 +2866,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Mahesh',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'brairclg' /* Mahesh */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2702,7 +2886,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'whi9t9h4' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -2725,7 +2911,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'erppjcf2' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -2774,7 +2964,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Paid',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'p1088y3j' /* Paid */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2870,7 +3064,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Debit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'jkp2ccs4' /* Debit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -2943,7 +3141,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Nancy',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'a2id91y5' /* Nancy */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2960,7 +3161,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'fowygx0o' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -2983,7 +3186,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '20rsmqf5' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -3026,7 +3233,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Pending',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '1c5oa6ud' /* Pending */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3122,7 +3333,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Credit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'yv04jv1v' /* Credit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -3195,7 +3410,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Nancy',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'u7dy0c2c' /* Nancy */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -3212,7 +3430,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'ufhhkku1' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -3235,7 +3455,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '2yugondi' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -3278,7 +3502,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Pending',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'tz0xml52' /* Pending */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3374,7 +3602,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              'Debit',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '7tqlqip4' /* Debit */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -3447,7 +3679,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Nancy',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '12vhfmov' /* Nancy */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -3464,7 +3699,9 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                               0.0),
                                                                           child:
                                                                               Text(
-                                                                            'Business Name',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              '23thq10q' /* Business Name */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                   fontFamily: 'Readex Pro',
                                                                                   color: FlutterFlowTheme.of(context).primary,
@@ -3487,7 +3724,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                           Expanded(
                                                             flex: 2,
                                                             child: Text(
-                                                              '₹2,100',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'bp9bbdd5' /* ₹2,100 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .titleLarge
@@ -3530,7 +3771,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                           12.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'Pending',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '8pe3ll6o' /* Pending */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3641,7 +3886,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     .fromSTEB(
                                                         0.0, 0.0, 12.0, 0.0),
                                                 child: Text(
-                                                  'Card Header',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'p6x7ruu3' /* Card Header */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .headlineMedium
@@ -3656,7 +3904,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     .fromSTEB(
                                                         0.0, 4.0, 12.0, 0.0),
                                                 child: Text(
-                                                  'Create tables and ui elements that work below.',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '0t1gu2t6' /* Create tables and ui elements ... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -3674,7 +3925,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: 'Add New',
+                                          text: FFLocalizations.of(context)
+                                              .getText(
+                                            '6sitgb0z' /* Add New */,
+                                          ),
                                           icon: Icon(
                                             Icons.add_rounded,
                                             color: FlutterFlowTheme.of(context)
@@ -3741,7 +3995,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 Expanded(
                                                   flex: 2,
                                                   child: Text(
-                                                    'Work Type',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '3xncd50z' /* Work Type */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelSmall
@@ -3755,7 +4012,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                               Expanded(
                                                 flex: 4,
                                                 child: Text(
-                                                  'Assigned User',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'xdiahh6c' /* Assigned User */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelSmall
@@ -3773,7 +4033,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                 Expanded(
                                                   flex: 2,
                                                   child: Text(
-                                                    'Contract Amount',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'ei5d3ki2' /* Contract Amount */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelSmall
@@ -3787,7 +4050,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                               Expanded(
                                                 flex: 2,
                                                 child: Text(
-                                                  'Status',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'j5czzbhn' /* Status */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelSmall
@@ -3801,7 +4067,10 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                               Expanded(
                                                 flex: 1,
                                                 child: Text(
-                                                  'Actions',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'nqqsxfso' /* Actions */,
+                                                  ),
                                                   textAlign: TextAlign.end,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -3861,7 +4130,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '8nybi71i' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -3932,7 +4205,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'xlsx5i3v' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3953,7 +4230,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'clqylebl' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -3982,7 +4263,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'ixmmiyoq' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4030,7 +4315,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Paid',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'kpfdgvyw' /* Paid */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -4118,7 +4407,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'nnxs8j7s' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4189,7 +4482,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'nmgh41k7' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -4210,7 +4507,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'g910gchk' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -4239,7 +4540,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '0ntvsyz3' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4287,7 +4592,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Paid',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '0kv159jb' /* Paid */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -4375,7 +4684,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'omnqcisn' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4446,7 +4759,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'sb1kvij1' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -4467,7 +4784,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'e9d267j8' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -4496,7 +4817,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'mtziy10u' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4544,7 +4869,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Paid',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'ac0ydr0t' /* Paid */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -4632,7 +4961,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'leilvbaj' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4703,7 +5036,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'ylruvqri' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -4724,7 +5061,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'wmju7dmp' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -4753,7 +5094,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '1rx52qcu' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4801,7 +5146,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Paid',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '123aq2sy' /* Paid */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -4889,7 +5238,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '4l9z84gt' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -4960,7 +5313,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'mvpz5mxi' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -4981,7 +5338,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'i6rkrygf' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -5010,7 +5371,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'ozfordm2' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -5053,7 +5418,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Pending',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'av0vljjg' /* Pending */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -5141,7 +5510,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'bgqexkvr' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -5212,7 +5585,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'hmgazkt0' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -5233,7 +5610,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'dpa0oq2v' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -5262,7 +5643,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'xzrupm8j' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -5305,7 +5690,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Pending',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '919nigmp' /* Pending */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -5393,7 +5782,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        'Design Work',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '7hzgil4a' /* Design Work */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -5464,7 +5857,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Randy Peterson',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'mtcnhz21' /* Randy Peterson */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -5485,7 +5882,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                             0.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      'Business Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '3hkd685d' /* Business Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodySmall
@@ -5514,7 +5915,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                     Expanded(
                                                       flex: 2,
                                                       child: Text(
-                                                        '\$2,100',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '8umd8iyr' /* $2,100 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -5557,7 +5962,11 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                                                         12.0,
                                                                         0.0),
                                                             child: Text(
-                                                              'Pending',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'm1xafkpq' /* Pending */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium

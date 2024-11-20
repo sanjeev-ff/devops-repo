@@ -1,3 +1,4 @@
+import '/backend/api_requests/api_calls.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -110,14 +111,16 @@ class _LoginWidgetState extends State<LoginWidget>
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 70.0, 0.0, 32.0),
                   child: Container(
-                    width: 300.0,
+                    width: 500.0,
                     height: 70.0,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      'TCS Portal 2.0',
+                      FFLocalizations.of(context).getText(
+                        'hqj4mlho' /* TCS Bancs Portal 2.0 */,
+                      ),
                       style: FlutterFlowTheme.of(context).displaySmall.override(
                             fontFamily: 'Plus Jakarta Sans',
                             color: Colors.white,
@@ -158,7 +161,9 @@ class _LoginWidgetState extends State<LoginWidget>
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Text(
-                              'Welcome Back',
+                              FFLocalizations.of(context).getText(
+                                'xv7gi3zl' /* Welcome Back */,
+                              ),
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .displaySmall
@@ -174,7 +179,9 @@ class _LoginWidgetState extends State<LoginWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 12.0, 0.0, 24.0),
                               child: Text(
-                                'Fill out the information below in order to access your account.',
+                                FFLocalizations.of(context).getText(
+                                  'ya0ld0h8' /* Fill out the information below... */,
+                                ),
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
@@ -199,7 +206,10 @@ class _LoginWidgetState extends State<LoginWidget>
                                   autofillHints: [AutofillHints.email],
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText: 'Email',
+                                    labelText:
+                                        FFLocalizations.of(context).getText(
+                                      '563iotbe' /* Email */,
+                                    ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelLarge
                                         .override(
@@ -268,7 +278,10 @@ class _LoginWidgetState extends State<LoginWidget>
                                   autofillHints: [AutofillHints.password],
                                   obscureText: !_model.passwordVisibility,
                                   decoration: InputDecoration(
-                                    labelText: 'Password',
+                                    labelText:
+                                        FFLocalizations.of(context).getText(
+                                      '1xlu6cdv' /* Password */,
+                                    ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelLarge
                                         .override(
@@ -343,9 +356,41 @@ class _LoginWidgetState extends State<LoginWidget>
                                   0.0, 0.0, 0.0, 16.0),
                               child: FFButtonWidget(
                                 onPressed: () async {
-                                  context.pushNamed('dashboard');
+                                  _model.apiResultdkk =
+                                      await AuthenticationGroup.loginAPICallCall
+                                          .call(
+                                    username:
+                                        _model.emailAddressTextController.text,
+                                    password:
+                                        _model.passwordTextController.text,
+                                  );
+
+                                  if ((_model.apiResultdkk?.succeeded ??
+                                      true)) {
+                                    context.pushNamed('dashboard');
+                                  } else {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text(
+                                          'Sorry, your username or password is wrong.',
+                                          style: TextStyle(
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryText,
+                                          ),
+                                        ),
+                                        duration: Duration(milliseconds: 4000),
+                                        backgroundColor:
+                                            FlutterFlowTheme.of(context)
+                                                .secondary,
+                                      ),
+                                    );
+                                  }
+
+                                  safeSetState(() {});
                                 },
-                                text: 'Sign In',
+                                text: FFLocalizations.of(context).getText(
+                                  'z34n2vjg' /* Sign In */,
+                                ),
                                 options: FFButtonOptions(
                                   width: double.infinity,
                                   height: 44.0,
@@ -376,7 +421,9 @@ class _LoginWidgetState extends State<LoginWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   16.0, 0.0, 16.0, 24.0),
                               child: Text(
-                                'Or sign in with',
+                                FFLocalizations.of(context).getText(
+                                  'ruinthqu' /* Or sign in with */,
+                                ),
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
@@ -396,7 +443,9 @@ class _LoginWidgetState extends State<LoginWidget>
                                 onPressed: () {
                                   print('Button pressed ...');
                                 },
-                                text: 'Continue with Google',
+                                text: FFLocalizations.of(context).getText(
+                                  'msxn3vz3' /* Continue with Google */,
+                                ),
                                 icon: FaIcon(
                                   FontAwesomeIcons.google,
                                   size: 20.0,
@@ -435,7 +484,9 @@ class _LoginWidgetState extends State<LoginWidget>
                                 onPressed: () {
                                   print('Button pressed ...');
                                 },
-                                text: 'Continue with Apple',
+                                text: FFLocalizations.of(context).getText(
+                                  'edqoo2w5' /* Continue with Apple */,
+                                ),
                                 icon: FaIcon(
                                   FontAwesomeIcons.apple,
                                   size: 20.0,
@@ -477,11 +528,15 @@ class _LoginWidgetState extends State<LoginWidget>
                                 text: TextSpan(
                                   children: [
                                     TextSpan(
-                                      text: 'Don\'t have an account?  ',
+                                      text: FFLocalizations.of(context).getText(
+                                        's2adq3e3' /* Don't have an account?   */,
+                                      ),
                                       style: TextStyle(),
                                     ),
                                     TextSpan(
-                                      text: 'Sign Up here',
+                                      text: FFLocalizations.of(context).getText(
+                                        'ptkgv4id' /* Sign Up here */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
