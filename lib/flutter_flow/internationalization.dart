@@ -149,7 +149,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // Login
   {
     'hqj4mlho': {
-      'en': 'Sanjana Bancs Portal 2.0',
+      'en': 'Our DevOps Portal 2.0',
       'hi': 'टीसीएस पोर्टल 2.0',
       'kn': 'TCS ಪೋರ್ಟಲ್ 2.0',
       'ta': 'டிசிஎஸ் போர்டல் 2.0',
